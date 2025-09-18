@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arvutikomponendid>
+    <arvuti>
+        <Komponent>
+            <Nimetus>Protsessor</Nimetus>
+            <Attributes>
+                <Parameeter>Nimetus: Intel Core i7</Parameeter>
+                <Parameeter>Hertzid: 3.6GHz</Parameeter>
+                <Parameeter>Tuumasid: 8</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Emaplaat</Nimetus>
+            <Attributes>
+                <Parameeter>Tüüp: ATX</Parameeter>
+                <Parameeter>Tootja: ASUS</Parameeter>
+                <Parameeter>Mudel: ROG Strix B550-F</Parameeter>
+                <Parameeter>Kiibistik: AMD B550</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Graafikakaart</Nimetus>
+            <Attributes>
+                <Parameeter>Nimetus: NVIDIA GeForce RTX 3080</Parameeter>
+                <Parameeter>Mälu: 10GB GDDR6X</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Mälu</Nimetus>
+            <Attributes>
+                <Parameeter>Maht: 32GB</Parameeter>
+                <Parameeter>Tüüp: DDR4</Parameeter>
+                <Parameeter>Kiirus: 3200MHz</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Kõvaketas</Nimetus>
+            <Attributes>
+                <Parameeter>Maht: 1TB</Parameeter>
+                <Parameeter>Tüüp: SSD</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Toiteplokk</Nimetus>
+            <Attributes>
+                <Parameeter>Võimsus: 750W</Parameeter>
+                <Parameeter>Sertifikaat: 80 Plus Gold</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Operationsüsteem</Nimetus>
+            <Attributes>
+                <Parameeter>Nimi: Windows 10 Pro</Parameeter>
+                <Parameeter>Arhitektuur: 64-bit</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Displei</Nimetus>
+            <Attributes>
+                <Parameeter>Diagonaal: 27 tolli</Parameeter>
+                <Parameeter>Resolutsioon: 2560x1440</Parameeter>
+                <Parameeter>Värskendussagedus: 144Hz</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Hiir</Nimetus>
+            <Attributes>
+                <Parameeter>Tüüp: Juhtmega</Parameeter>
+                <Parameeter>DPI: 16000</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Klaviatuur</Nimetus>
+            <Attributes>
+                <Parameeter>Tüüp: Mehaaniline</Parameeter>
+                <Parameeter>Valgustus: RGB</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Kõrvaklapid</Nimetus>
+            <Attributes>
+                <Parameeter>Valgustus: RGB</Parameeter>
+                <Parameeter>Lisad: Müra summutus</Parameeter>
+            </Attributes>
+        </Komponent>
+        <Komponent>
+            <Nimetus>Case</Nimetus>
+            <Attributes>
+                <Parameeter>Tüüp: Mid Tower</Parameeter>
+                <Parameeter>Materjal: Tempered Glass</Parameeter>
+                <Parameeter>Valgustus: RGB</Parameeter>
+            </Attributes>
+        </Komponent>
+    </arvuti>
+</arvutikomponendid>
