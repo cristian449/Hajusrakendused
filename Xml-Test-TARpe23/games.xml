@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameslist>
+    <game>
+        <title lang="en">Heartstone</title>
+        <price>Free</price>
+        <platform>PC</platform>
+        <platform>IOS</platform>
+    </game>
+
+    <game>
+        <title lang="en">Voices of the void</title>
+        <price>Free</price>
+        <platform>PC</platform>
+    </game>
+
+    <game>
+        <title lang="en">GTA5</title>
+        <price>29.99</price>
+        <platforms>
+            <platform>PC</platform>
+            <platform>PS</platform>
+            <platform>XBox</platform>
+        </platforms>
+
+    </game>
+
+    <game>
+        <title lang="en">Call of Duty MW2</title>
+        <price>59.99</price>
+        <platform>PC</platform>
+        <platform>PS</platform>
+        <platform>XBox</platform>
+    </game>
+
+</gameslist>

@@ -1,0 +1,22 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/wp3017073.jpg');
+    color: wheat;
+}
+
+button {
+    font-family:monospace;
+    background-color: black;
+    color: wheat;
+    border: 2px solid wheat;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+h1 {
+    font-family:monospace;
+    font-size: 40px;
+    color: wheat;
+}
+

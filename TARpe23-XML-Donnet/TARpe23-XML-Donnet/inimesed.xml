@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inimesed>
+	<inimene>
+		<eesnimi>Juku</eesnimi>
+		<perenimi>Juurikas</perenimi>
+		<synd>1963</synd>
+		<sugu>mees</sugu>
+		<mass>95kg</mass>
+	</inimene>
+	<inimene>
+		<eesnimi>Juku</eesnimi>
+		<perenimi>Kaalikas</perenimi>
+		<synd>1961</synd>
+		<sugu>mees</sugu>
+		<mass>105kg</mass>
+	</inimene>
+	<inimene>
+		<eesnimi>Kalle</eesnimi>
+		<perenimi>Kaalikas</perenimi>
+		<synd>1975</synd>
+		<sugu>naine</sugu>
+		<mass>85kg</mass>
+	</inimene>
+	<inimene>
+		<eesnimi>Ray</eesnimi>
+		<perenimi>Homan</perenimi>
+		<synd>1925</synd>
+		<sugu>mees</sugu>
+		<mass>115kg</mass>
+	</inimene>
+	<inimene>
+		<eesnimi>Reddington</eesnimi>
+		<perenimi>Raymond</perenimi>
+		<synd>1965</synd>
+		<sugu>mees</sugu>
+		<mass>86kg</mass>
+	</inimene>
+	<inimene>
+		<eesnimi>Karli</eesnimi>
+		<perenimi>jennder</perenimi>
+		<synd>1987</synd>
+		<sugu>naine</sugu>
+		<mass>79kg</mass>
+	</inimene>
+</inimesed>

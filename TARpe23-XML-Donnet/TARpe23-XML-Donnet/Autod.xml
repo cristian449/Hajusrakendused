@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<Autod>
+	
+	<Auto>
+		<Regnr>541AJ2</Regnr>
+		<Omanik>Charlie</Omanik>
+	</Auto>
+
+
+	<Auto>
+		<Regnr>811AFA</Regnr>
+		<Omanik>Barney</Omanik>
+	</Auto>
+
+	<Auto>
+		<Regnr>941FDC</Regnr>
+		<Omanik>Oconnder</Omanik>
+	</Auto>
+
+	<Auto>
+		<Regnr>151FJ1</Regnr>
+		<Omanik>Barky</Omanik>
+	</Auto>
+
+	<Auto>
+		<Regnr>851AND</Regnr>
+		<Omanik>Liiv</Omanik>
+	</Auto>
+
+
+</Autod>
