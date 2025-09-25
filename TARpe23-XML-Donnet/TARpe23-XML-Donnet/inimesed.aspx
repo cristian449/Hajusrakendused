@@ -26,11 +26,17 @@
             <asp:Xml ID="xml1" runat="server" DocumentSource="~/inimesed.xml"
                 TransformSource="~/universaalne_tabeli_vaade.xslt" />
 
-                    <asp:Xml ID="xml2" runat="server" DocumentSource="~/inimesed.xml"
+            <asp:Xml ID="xml2" runat="server" DocumentSource="~/inimesed.xml"
                 TransformSource="~/universaalne_loetelu_vaade_nimed.xslt" />
 
-                <asp:Xml ID="xml4" runat="server" DocumentSource="~/inimesed.xml"
-            TransformSource="~/universaalne_loetelu_vaade.xslt" />
+            <asp:Xml ID="xml4" runat="server" DocumentSource="~/inimesed.xml"
+                TransformSource="~/universaalne_loetelu_vaade.xslt" />
+
+            <asp:Xml ID="xml5" runat="server" DocumentSource="~/Autod.xml"
+                TransformSource="~/universaalne_SQL_vaade.xslt" />
+
+            <asp:Xml ID="xml6" runat="server" DocumentSource="~/inimesed.xml"
+                 TransformSource="~/universaalne_SQL_vaade.xslt" />
 
 
 
