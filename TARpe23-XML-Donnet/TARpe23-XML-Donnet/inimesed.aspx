@@ -20,10 +20,10 @@
             <asp:Xml ID="xml3" runat="server" DocumentSource="~/inimesed.xml"
                 TransformSource="~/kujunduskordus.xsl" />--%>
 
-            <asp:Xml ID="xml3" runat="server" DocumentSource="~/inimesed.xml"
-                TransformSource="~/universaalne_struktuuri_vaade.xslt" />
+<%--            <asp:Xml ID="xml3" runat="server" DocumentSource="~/inimesed.xml"
+                TransformSource="~/universaalne_struktuuri_vaade.xslt" />--%>
 
-            <asp:Xml ID="xml1" runat="server" DocumentSource="~/inimesed.xml"
+            <%--<asp:Xml ID="xml1" runat="server" DocumentSource="~/inimesed.xml"
                 TransformSource="~/universaalne_tabeli_vaade.xslt" />
 
             <asp:Xml ID="xml2" runat="server" DocumentSource="~/inimesed.xml"
@@ -36,7 +36,18 @@
                 TransformSource="~/universaalne_SQL_vaade.xslt" />
 
             <asp:Xml ID="xml6" runat="server" DocumentSource="~/inimesed.xml"
-                 TransformSource="~/universaalne_SQL_vaade.xslt" />
+                 TransformSource="~/universaalne_SQL_vaade.xslt" />--%>
+
+     <%--       <asp:Xml ID="xml6" runat="server" DocumentSource="~/inimesed.xml"
+                TransformSource="~/mallid.xslt" />
+
+            <asp:Xml ID="xml1" runat="server" DocumentSource="~/inimesed.xml"
+                TransformSource="~/mallid_trüki_värvilvine_tekst.xslt" />
+
+            Mallid ül ei jõudnud lõpetada ainult 2 tehtud, jätka hiljem kui vaja--%>
+
+
+
 
 
 

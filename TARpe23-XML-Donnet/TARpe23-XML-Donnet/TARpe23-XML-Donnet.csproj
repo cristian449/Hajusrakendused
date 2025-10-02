@@ -69,9 +69,16 @@
   <ItemGroup>
     <Content Include="Autod.xml" />
     <Content Include="Global.asax" />
+    <Content Include="Elizabeth.xml" />
     <Content Include="inimesed.aspx" />
     <Content Include="inimesed.xml" />
     <Content Include="inimesed.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="mallid_trüki_värvilvine_tekst.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="mallid.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Parameeter.aspx" />
