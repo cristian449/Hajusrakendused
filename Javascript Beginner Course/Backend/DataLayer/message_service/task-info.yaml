@@ -32,42 +32,52 @@ files:
         initial_state:
           length: 9
           offset: 590
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: 5wnjgsFXiigkVY1VXpvx8ioDDAx6vbLFyor6WFNXN6Q=
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: undefined
         is_visible: false
-      - offset: 717
-        length: 24
+      - offset: 718
+        length: 78
         placeholder_text: /* create the message */
         initial_state:
           length: 24
           offset: 717
         initialized_from_dependency: false
         encrypted_possible_answer: +/3Ib5AOj5qkoEd38G4FHulwci4i8IgHwyMTz+gQeHTc6bo+/+YL8gmg5yCeZ3RMoInQTil4yO1oUpYV511AyaK7WFdu51ic2XX+piL5fpGp1LdpVd6JiIABetQaO5UG
-        selected: false
-        status: Unchecked
-      - offset: 752
-        length: 24
+        selected: true
+        status: Solved
+        student_answer: |2-
+                      id: crypto.randomUUID(),
+                      username,
+                      content
+      - offset: 808
+        length: 55
         placeholder_text: // add it to the storage
         initial_state:
           length: 24
           offset: 752
         initialized_from_dependency: false
         encrypted_possible_answer: BmrB8E3M/iEgxK3RXQwqqN0xv5mvsTaAVyh1DEMpGto=
-        selected: false
-        status: Unchecked
-      - offset: 855
-        length: 2
+        selected: true
+        status: Solved
+        student_answer: |
+          store.messages.push(message);
+          
+                  return message;
+      - offset: 916
+        length: 28
         placeholder_text: "[]"
         initial_state:
           length: 2
           offset: 855
         initialized_from_dependency: false
         encrypted_possible_answer: FY2TPx880s8sKnhrR7hjJA==
-        selected: false
-        status: Unchecked
-      - offset: 938
+        selected: true
+        status: Solved
+        student_answer: urn store.messages.splice(0)
+      - offset: 1024
         length: 53
         placeholder_text: // delete the message with messageId from the storage
         initial_state:
@@ -75,8 +85,9 @@ files:
           offset: 938
         initialized_from_dependency: false
         encrypted_possible_answer: XrCt0zhusDioLzU94alm35fgKsPtl0s0So+Jrh4E4MGsk1tkvk571YFKb8NAM5K3AHBIHqxoO9+Zo9ywTfGhdpbbclUZMWHadx8YhKID2b8Si0UJZ4vafkvQ7RKbzoUed7gl9YOERM/DNbTTnJMajmXwzaZrTw1kak1WFqU82JYGVlaS+pB53dDNJRpwZQEZapalUjt3GcOxuwPwejgjGPH1+4sowUZHWntcejReOe8PYssNg5ln/QTJyQgxsBdm
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: // delete the message with messageId from the storage
     learner_created: false
   - name: frontend/src/App.css
     visible: true
@@ -120,5 +131,8 @@ files:
   - name: test/test.js
     visible: false
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 10:35:47 UTC"
+record: 12

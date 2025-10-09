@@ -4,8 +4,9 @@ const httpServer = createServer((req, res) => {
     if (req.url === '/') {
         res.writeHead(200, {'Content-Type': 'text/plain'});
         res.end('Hello, World!');
-    } else if (/* check if url is /sum */) {
-        /* Handle this request */
+    } else if (req.url === '/sum') {
+        res.writeHead(501, {'Content-Type': 'text/plain'});
+        res.end('TODO in the next lesson');
     } else {
         res.writeHead(404, {'Content-Type': 'text/plain'});
         res.end('Page Not Found');

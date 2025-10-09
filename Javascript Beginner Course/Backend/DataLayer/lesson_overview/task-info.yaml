@@ -12,6 +12,6 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+record: 6
 post_submission_on_open: true

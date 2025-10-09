@@ -2,11 +2,16 @@ import React, {useState} from 'react';
 
 function App() {
     const [num1, setNum1] = useState("");
+    const [num2, setNum2] = useState("")
     
 
     const handleNum1Change = (event) => {
         setNum1(event.target.value);
     };
+
+    const handleNum2Change = (event) => {
+        setNum2(event.target.value)
+    }
 
     
 
@@ -35,6 +40,7 @@ function App() {
                 <input
                     type="number"
                     id="number2"
+                    onChange={handleNum2Change}
                     placeholder="Enter number"
                 />
             </div>
@@ -45,7 +51,7 @@ function App() {
                 <input
                     type="number"
                     id="sum"
-                    value="-1"
+                    value={+num1 + +num2}
                     readOnly
                 />
             </div>

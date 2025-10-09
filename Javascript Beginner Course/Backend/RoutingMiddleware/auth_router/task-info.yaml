@@ -5,27 +5,30 @@ files:
     visible: true
     placeholders:
       - offset: 238
-        length: 50
+        length: 40
         placeholder_text: // Get the username and password from the req.body
         initial_state:
           length: 50
           offset: 238
         initialized_from_dependency: false
         encrypted_possible_answer: uGPcAc/nWiDRsqrSWE8Lz267lNjtANJgJmgEVY+E8RtgLXufdg/MLmd/3saybdfT
-        selected: false
-        status: Unchecked
-      - offset: 340
-        length: 49
+        selected: true
+        status: Solved
+        student_answer: "const { username, password } = req.body;"
+      - offset: 330
+        length: 79
         placeholder_text: // Respond with the 400 code and an error message
         initial_state:
           length: 49
           offset: 340
         initialized_from_dependency: false
         encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gdyusi3ucbV0zdTEpeWxuQ3g65eHtdhLOht5aFcygAfrKOupsuvyzOq5DwH3fZloqWxOJ2rusgsMhza+I9H8h8w8=
-        selected: false
-        status: Unchecked
-      - offset: 518
-        length: 20
+        selected: true
+        status: Solved
+        student_answer: "return res.status(400).json({ message: 'Username and password\
+      \ are required' });"
+      - offset: 538
+        length: 48
         placeholder_text: // Create a new user
         initial_state:
           length: 20
@@ -33,8 +36,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: s6qoSvGUEhn2ade9U1qxTL/hFdZkUDV8I4ZMlNJe9e7y92vb/schcp7xdadkzLgEPKKPf0dDIJAbOXczoRak0Q==
         selected: false
-        status: Unchecked
-      - offset: 548
+        status: Solved
+        student_answer: "userService.createUser(username, hashedPassword)"
+      - offset: 596
         length: 58
         placeholder_text: // Respond with the 201 code and the username as an answer
         initial_state:
@@ -43,18 +47,24 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gd7FV7xrXOflJC5Dlczx9MZHO1fPLlhapeAVL0OOHYwQ79Jogx1WnqPQVxQiYc8i4cQ==
         selected: false
-        status: Unchecked
-      - offset: 945
-        length: 50
+        status: Solved
+        student_answer: " return res.status(201).json({ username: user.username });"
+      - offset: 993
+        length: 105
         placeholder_text: // Get the username and password from the req.body
         initial_state:
           length: 50
           offset: 945
         initialized_from_dependency: false
         encrypted_possible_answer: uGPcAc/nWiDRsqrSWE8Lz267lNjtANJgJmgEVY+E8RtgLXufdg/MLmd/3saybdfT
-        selected: false
-        status: Unchecked
-      - offset: 1047
+        selected: true
+        status: Solved
+        student_answer: |-
+          const { username, password } = req.body;
+          
+                  if (!username || !password) {
+                      return res.st
+      - offset: 1150
         length: 49
         placeholder_text: // Respond with the 400 code and an error message
         initial_state:
@@ -62,9 +72,14 @@ files:
           offset: 1047
         initialized_from_dependency: false
         encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gdyusi3ucbV0zdTEpeWxuQ3g65eHtdhLOht5aFcygAfrKOupsuvyzOq5DwH3fZloqW8RAow3PeXfuRtze4T5y5FI=
-        selected: false
-        status: Unchecked
-      - offset: 1136
+        selected: true
+        status: Solved
+        student_answer: |2-
+           required' });
+                  }
+        
+                  const user = aw
+      - offset: 1239
         length: 37
         placeholder_text: // Get the user from the user service
         initial_state:
@@ -73,8 +88,11 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: JjQE7exVpH/1RQA/bJp2yFtdjX+fBL63P+6z6bZgZqQ=
         selected: false
-        status: Unchecked
-      - offset: 1208
+        status: Solved
+        student_answer: |2-
+              if (!user) {
+                      return r
+      - offset: 1311
         length: 49
         placeholder_text: // Respond with the 401 code and an error message
         initial_state:
@@ -82,9 +100,10 @@ files:
           offset: 1208
         initialized_from_dependency: false
         encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gd6UhfWCpqKNUc/P9eVVmr92DWQMSNgffPXr8+UfqYUCLATv5paYhKxOR4QLsSwmGzv83+Ogo2lGfNc8cxqbeK3U=
-        selected: false
-        status: Unchecked
-      - offset: 1335
+        selected: true
+        status: Solved
+        student_answer: "alid username or password' });\n        }\n\n       "
+      - offset: 1438
         length: 44
         placeholder_text: // Compare the passwords with bcrypt.compare
         initial_state:
@@ -93,8 +112,12 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 6B6U1pwuc816DOXjvt1RzQC1F+whBXE0fbkYbWM20NDa2YXyyD7QiQrK4IuHpy3t
         selected: false
-        status: Unchecked
-      - offset: 1425
+        status: Solved
+        student_answer: |-
+          word, user.password);
+          
+                  if (!isValidP
+      - offset: 1528
         length: 49
         placeholder_text: // Respond with the 401 code and an error message
         initial_state:
@@ -103,8 +126,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gd6UhfWCpqKNUc/P9eVVmr92DWQMSNgffPXr8+UfqYUCLATv5paYhKxOR4QLsSwmGzv83+Ogo2lGfNc8cxqbeK3U=
         selected: false
-        status: Unchecked
-      - offset: 1494
+        status: Solved
+        student_answer: "json({ message: 'Invalid username or password' })"
+      - offset: 1597
         length: 45
         placeholder_text: // Respond with the code 200 and the username
         initial_state:
@@ -113,7 +137,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: SmQiJiZbpqKwnNg06vzDyF8JzIQDxbcbjXnIE1ToRtVz8kM+zs/ZYYehAFSwKXiN
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: " return res.json({username: user.username });"
     learner_created: false
   - name: images/routers.png
     visible: false
@@ -166,31 +191,33 @@ files:
     visible: true
     placeholders:
       - offset: 160
-        length: 21
+        length: 42
         placeholder_text: // Import auth router
         initial_state:
           length: 21
           offset: 160
         initialized_from_dependency: false
         encrypted_possible_answer: VN/xHDeW43+YhHrAkRpZVim4dQ2+x8llveNALWnNDZQ6uk2lnVnbr2fRNWZWin+Y
-        selected: false
-        status: Unchecked
-      - offset: 401
-        length: 47
+        selected: true
+        status: Solved
+        student_answer: import authRoutes from './routes/auth.js';
+      - offset: 422
+        length: 33
         placeholder_text: // Add auth router for the route /api/auth here
         initial_state:
           length: 47
           offset: 401
         initialized_from_dependency: false
         encrypted_possible_answer: N9B37iFxglGo1C1zEhyYsrlyJvP7zmoYTY7f/ACl7I2QsCklVPHLOBfih+pg9ADL
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: "app.use('/api/auth', authRoutes);"
     learner_created: false
   - name: backend/src/routes/messages.js
     visible: true
     placeholders:
       - offset: 200
-        length: 40
+        length: 59
         placeholder_text: // Get messages from the message service
         dependency:
           section: Backend
@@ -201,13 +228,14 @@ files:
         initial_state:
           length: 40
           offset: 200
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: RdFCZ4R2PHPlunU48bE/ps8o5f8Pz9kbZw07hKoHXXAEZBTwxnF9TIlSWzEt6t7GFnTvw/vnepiA5TRGhbGMXg==
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: "const messages = await messageService.getMessages();\n      "
         is_visible: false
-      - offset: 249
-        length: 31
+      - offset: 268
+        length: 38
         placeholder_text: // Send them as a JSON-response
         dependency:
           section: Backend
@@ -218,13 +246,16 @@ files:
         initial_state:
           length: 31
           offset: 249
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: SmQiJiZbpqKwnNg06vzDyK3iOkoy+iF5hcU0xveTUcs=
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: |-
+          res.json(messages);
+              } catch (error
         is_visible: false
-      - offset: 516
-        length: 46
+      - offset: 542
+        length: 33
         placeholder_text: // Get the content field from the request body
         dependency:
           section: Backend
@@ -235,13 +266,17 @@ files:
         initial_state:
           length: 46
           offset: 516
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: r2dZRPYLQ74XpJr78+Ix7y0/NIV2VtUGZP+QIIkd0SwDs+01SiVbk6VxbkUt7lAF
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: |-
+          .body.content;
+          
+                  if (!user
         is_visible: false
-      - offset: 686
-        length: 30
+      - offset: 699
+        length: 0
         placeholder_text: // Check the content parameter
         dependency:
           section: Backend
@@ -252,13 +287,13 @@ files:
         initial_state:
           length: 30
           offset: 686
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: bIOdm/2wok3M1Tt1RqiVW6AVMsJbn++jkePiaoNeU9ZwAC98OxEvuEBmeRvzbkUxlttG2HpoEgXHZCEjdAHwNObabCOpmLqXc8nsgCO5eN9zZ3ka3xctl5+D7EPt3pPAqfkumg1RnpVAUjrGSRj7Eg==
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 726
-        length: 39
+      - offset: 709
+        length: 116
         placeholder_text: // Add a message to the message service
         dependency:
           section: Backend
@@ -269,13 +304,18 @@ files:
         initial_state:
           length: 39
           offset: 726
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: oQVsGWQDRL3sHxn2yRObOQ2+YB0CFzZ5efkm8avLbS7qm2xDwRhA6AKxY7OCTsFydj59O8jl0x/U26O72kfENceAMys+RG4zpSq+eLu9hZU=
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: |-
+          eturn res.status(400).json({ message: 'Message content is required' });
+                  }
+          
+                  const message = await mes
         is_visible: false
-      - offset: 774
-        length: 57
+      - offset: 834
+        length: 0
         placeholder_text: // Respond with the 201 code and a message as the content
         dependency:
           section: Backend
@@ -286,13 +326,13 @@ files:
         initial_state:
           length: 57
           offset: 774
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: u7gPomk4r2dLr8deeU+Gdy8vjSfXNfthA4iLA6VfUo9w/WXERgtqSeGNrF4c8Ilk
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 1041
-        length: 21
+      - offset: 1044
+        length: 233
         placeholder_text: // Get the message id
         dependency:
           section: Backend
@@ -303,13 +343,22 @@ files:
         initial_state:
           length: 21
           offset: 1041
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: YeqhMCi5x99Nog1Timgj5MlOu/sTU6jyb/vpMNxeVYUEb07rf8yUmL7AvTdbg5d6
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: |-
+          Delete a message
+          router.delete('/:id', async (req, res) => {
+              try {
+                  const messageId = req.params.id;
+                  const deleted = await messageService.deleteMessage(messageId);
+          
+                  if (!deleted) {
+                      return res.st
         is_visible: false
-      - offset: 1071
-        length: 43
+      - offset: 1286
+        length: 0
         placeholder_text: // Delete the message using message service
         dependency:
           section: Backend
@@ -320,12 +369,12 @@ files:
         initial_state:
           length: 43
           offset: 1071
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: fuDhruZ3D+RNR48Lno8zpYjoTEMyqTwt+aUHATdm931BqvG+9BW+8X8wqvcxNarfK2NxuRo9/X5HkeGh8NEh7g==
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 1124
+      - offset: 1296
         length: 80
         placeholder_text: "// Respond with the 204 code on success, or 404 with an error\
       \ message otherwise."
@@ -338,10 +387,15 @@ files:
         initial_state:
           length: 80
           offset: 1124
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: eUC90iJb8jH8Lbz7xbLoOYOzcLY/Pr/+1/YaJbAI5Lez2VTyFo75ou0+ITN+lO17ruDkbZkYk9dz06J72I71geDiydKsavxizUzhcHQAP5fJwyk2rJJCmAxqfyWlDiqSmoLVeljEUe7jtEr4zQ5taysdeZAIsXtLXLibGxw1oIf8+TYBqtthvYdNjI5x8PH9
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: |-
+          ssage: 'Message not found' });
+                  }
+          
+                  return res.status(204).send();
         is_visible: false
     learner_created: false
   - name: frontend/src/components/GetMessages.jsx
@@ -376,5 +430,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 11:07:49 UTC"
+record: 11

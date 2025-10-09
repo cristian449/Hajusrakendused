@@ -14,7 +14,7 @@ files:
     visible: true
     placeholders:
       - offset: 1096
-        length: 30
+        length: 10
         placeholder_text: inputValue.split("").join(" ")
         initial_state:
           length: 30
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: MKPxG8XAzYZCzS1Sf8DlkQ==
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
     learner_created: false
   - name: frontend/src/main.jsx
@@ -68,5 +68,8 @@ files:
   - name: images/runSuccess_dark.svg
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 13:28:26 UTC"
 record: -1

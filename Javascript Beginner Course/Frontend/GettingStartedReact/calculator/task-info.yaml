@@ -4,7 +4,7 @@ files:
   - name: frontend/src/App.jsx
     visible: true
     placeholders:
-      - offset: 103
+      - offset: 144
         length: 0
         placeholder_text: ""
         initial_state:
@@ -13,9 +13,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: SjHu7RBREaNoeQWSASV400+7cE723aHeYh3QIEArGaG/azSZ8Fh0cZxeKdDOCa+5
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 196
+      - offset: 322
         length: 0
         placeholder_text: ""
         initial_state:
@@ -24,10 +24,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: oaKN12sp/3y9ODQ64uNUH+n57r75GOdi5CqqAzenI0ZJ05F5q9hipqSWVgYiR/PdU4o+1aqdS2TWMMc47YC8N8C1j1cTrKmhI39/PUkHxmVcp8cCX+/YazK2wO+TQDSV
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 1000
-        length: 0
+      - offset: 1127
+        length: 47
         placeholder_text: ""
         initial_state:
           length: 0
@@ -35,10 +35,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: PSE2TPyT37FTb1Jnw1sT2E35KCYNAdFS8q45OPXTZfiGSwAy3LlV4WXPDxPRHeNUoPdrKmaAj0QhCZLTu9XCkw==
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 1289
-        length: 4
+      - offset: 1463
+        length: 15
         placeholder_text: '"-1"'
         initial_state:
           length: 4
@@ -46,7 +46,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 4P46M6WPuYeppUvm6xLfoQ==
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
     learner_created: false
   - name: test/test.jsx
@@ -77,5 +77,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 13:33:35 UTC"
 record: -1

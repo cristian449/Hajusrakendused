@@ -8,25 +8,25 @@ files:
     visible: true
     placeholders:
       - offset: 220
-        length: 26
+        length: 19
         placeholder_text: /* check if url is /sum */
         initial_state:
           length: 26
           offset: 220
         initialized_from_dependency: false
         encrypted_possible_answer: xDjbwcESXc5v85Vbk9S2X05kYfO8QorHCKYTO8smyGE=
-        selected: false
-        status: Unchecked
-      - offset: 258
-        length: 25
+        selected: true
+        status: Solved
+      - offset: 250
+        length: 95
         placeholder_text: /* Handle this request */
         initial_state:
           length: 25
           offset: 258
         initialized_from_dependency: false
         encrypted_possible_answer: cD9CWYybKPc5SKIM8JRJdeZXVafbMIbUi7s7VI231WAJ6YAb8SL0PEGa0xPdtnBxX8Il+VUH+Wp1C87h6X8OJg6tvqFnxa+lq0aF5BrLVA/z+G3ZoQxGl5jIWbfrk1Ww
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: package.json
     visible: true
@@ -39,5 +39,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 08:10:11 UTC"
 record: -1

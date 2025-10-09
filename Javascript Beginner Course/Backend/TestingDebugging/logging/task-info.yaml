@@ -8,16 +8,16 @@ files:
     visible: true
     placeholders:
       - offset: 81
-        length: 22
+        length: 28
         placeholder_text: // Add the import here
         initial_state:
           length: 22
           offset: 81
         initialized_from_dependency: false
         encrypted_possible_answer: oSrCAvj1l68DJOlfW1ite1ojignaR7+O1/RwP/ZtQzw=
-        selected: false
-        status: Unchecked
-      - offset: 186
+        selected: true
+        status: Solved
+      - offset: 217
         length: 39
         placeholder_text: // Add the morgan middleware to the app
         initial_state:
@@ -26,7 +26,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 7z2bDU4+zPMjAPW+kinWC9fDfp6ThLnek5LYvKDymFw=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: backend/__tests__/sum.test.js
     visible: true
@@ -81,5 +81,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 09:57:35 UTC"
 record: -1

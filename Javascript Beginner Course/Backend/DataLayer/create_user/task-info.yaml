@@ -23,7 +23,7 @@ files:
   - name: backend/src/data/dataServices.js
     visible: true
     placeholders:
-      - offset: 542
+      - offset: 634
         length: 9
         placeholder_text: undefined
         initial_state:
@@ -31,8 +31,9 @@ files:
           offset: 542
         initialized_from_dependency: false
         encrypted_possible_answer: 5wnjgsFXiigkVY1VXpvx8ioDDAx6vbLFyor6WFNXN6Q=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: undefined
     learner_created: false
   - name: frontend/src/App.css
     visible: true
@@ -73,5 +74,8 @@ files:
   - name: backend/__tests__/dataServices.test.js
     visible: true
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 10:13:31 UTC"
+record: 8

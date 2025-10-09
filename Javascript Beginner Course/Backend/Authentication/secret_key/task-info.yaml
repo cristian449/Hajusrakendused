@@ -101,15 +101,17 @@ files:
     visible: true
     placeholders:
       - offset: 11
-        length: 44
+        length: 89
         placeholder_text: update_this_with_the_actual_secret_key_value
         initial_state:
           length: 44
           offset: 11
         initialized_from_dependency: false
         encrypted_possible_answer: zMgelSc+ls+vjgJtrJ6vD1BfUXHX9WvLtxlt9AaBmVschN7KDffhvkoHi2PjpiqqhCYRevksFpTR+wtgOiieNRIfntsP07tcu+QVObKDKV/2pfPa3ISI6KQe2qzMEBeG
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: |
+          AfYkYtWMVzhV7YoJJC5LTsD/XWgN2sMT4UYkw7GDJqujF2k0KtsYSSJ24cabkJSu4XuTk4lngz3UWzN5NDvFEQ==
     learner_created: false
   - name: images/run.svg
     visible: false
@@ -125,5 +127,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 11:46:05 UTC"
+record: 14

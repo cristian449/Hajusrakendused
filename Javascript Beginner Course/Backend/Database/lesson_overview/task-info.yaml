@@ -4,6 +4,6 @@ files:
   - name: backend/src/index.js
     visible: true
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+record: 17
 post_submission_on_open: true

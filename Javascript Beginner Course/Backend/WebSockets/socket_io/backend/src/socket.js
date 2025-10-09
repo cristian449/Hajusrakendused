@@ -9,9 +9,13 @@ export const initializeSocketIO = (io) => {
         // Handle new messages
         socket.on('message', async (data) => {
             try {
-                // Add a new message to the message service
+                const username = data.username;
+                const content = data.content;
+                const message = await messageService.addMessage(username, content);
 
-                // Broadcast the message to all connected clients
+
+
+                io.emit("message", message)
             } catch (error) {
                 socket.emit('error', { message: 'Error sending message' });
             }
@@ -20,11 +24,17 @@ export const initializeSocketIO = (io) => {
         // Handle message deletion
         socket.on('deleteMessage', async (data) => {
             try {
-                // Delete the message using the message service
+                const messageId = data.messageId
+                 const messageDeleted = await messageService.deleteMessage(messageId);
 
-                // Trigger an 'error' event if the message was not found
 
-                // Broadcast the 'messageDeleted' event with messageId to all connected clients
+
+                if (!messageDeleted) {
+                    socket.emit("error", {message: 'Message not found'})
+                }
+
+
+                io.emit("messagedeleted", {messageDeleted});
             } catch (error) {
                 socket.emit('error', { message: 'Error deleting message' });
             }

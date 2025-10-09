@@ -1,13 +1,14 @@
 import express from 'express';
 import http from 'http';
 import cors from 'cors';
-// Add the import here
+import morgan from 'morgan';
 
 const app = express();
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+app.use(morgan('tiny'));
 
 // Add the morgan middleware to the app
 

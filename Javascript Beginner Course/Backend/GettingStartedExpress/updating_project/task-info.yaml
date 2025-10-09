@@ -31,6 +31,6 @@ files:
   - name: images/rerun_dark.svg
     visible: false
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+record: 2
 post_submission_on_open: true

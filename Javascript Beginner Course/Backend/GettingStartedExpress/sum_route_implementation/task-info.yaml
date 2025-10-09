@@ -11,15 +11,30 @@ files:
     visible: true
     placeholders:
       - offset: 177
-        length: 36
+        length: 330
         placeholder_text: // Implement /sum route handler here
         initial_state:
           length: 36
           offset: 177
         initialized_from_dependency: false
         encrypted_possible_answer: Mt05iYgVHLQGx05tv6pWzBWrEUNfQelccBXUGnX0Ri8AqGBW1fFnIspe0/rBfFTIkhPFRizgCCVjNXk/J7BimljJOXEJf1otY6XUgb4hem39WEA/J/f/pJoRnYLU16OsCUlYhGOOichJXv6/YSxB1g2vTENGm/nOPUwiIwKh7Fh8xifAARTZBJ5ODoQPcxpIT7gFzW00L5fdbP/8Tij4m0WaZXBDP00RU72Pg1eKpR5zyJozndy9u2VMOWQgx2VKnW1f63oc7f7mFWd0d1/rbbI+rwpMJrquifhxq+Vn9x5lxjXHukdCVkV7lewn7y9NHmZCR5HXGJTOTO/ry1dSiM5t7aZNFGYdH4tRUTiRCqX+lboC1XSaoxL1minLY2oabeatst8Qyf58YE17DRWL154oYAlEph1SwGSoRtcchSQ=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
+        student_answer: |-
+          app.get('/sum', (req, res) => {
+              const a = parseInt(req.query.a, 10);
+              const b = parseInt(req.query.b, 10);
+          
+              if (isNaN(a) || isNaN(b)) {
+                  return res.status(400).json({
+                      message: 'Invalid query parameters. Ensure "a" and "b" are numbers.'
+                  });
+              }
+          
+              res.json({ sum: a + b });
+          });
+          
+          app.get('/
     learner_created: false
   - name: backend/package.json
     visible: true
@@ -53,5 +68,8 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Oct 2025 08:59:55 UTC"
+record: 4

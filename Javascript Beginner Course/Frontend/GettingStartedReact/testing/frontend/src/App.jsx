@@ -34,7 +34,7 @@ function App() {
                 <input
                     type="text"
                     id="duplicatedText"
-                    value={inputValue.split("").join(" ")}
+                    value={inputValue}
                     readOnly
                 />
             </div>

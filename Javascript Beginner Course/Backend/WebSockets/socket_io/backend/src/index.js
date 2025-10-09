@@ -9,8 +9,9 @@ import { initializeSocketIO } from './socket.js';
 
 const app = express();
 const httpServer = http.createServer(app);
-// Create a SocketIO object
-// Call the socket initialization function
+const io = new SocketIO(httpServer);
+initializeSocketIO(io);
+
 
 // Middleware
 app.use(cors());

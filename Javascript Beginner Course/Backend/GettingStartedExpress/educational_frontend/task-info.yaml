@@ -14,7 +14,7 @@ files:
     visible: true
     placeholders:
       - offset: 177
-        length: 36
+        length: 326
         placeholder_text: // Implement /sum route handler here
         dependency:
           section: Backend
@@ -25,10 +25,15 @@ files:
         initial_state:
           length: 36
           offset: 177
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: Mt05iYgVHLQGx05tv6pWzBWrEUNfQelccBXUGnX0Ri8AqGBW1fFnIspe0/rBfFTIkhPFRizgCCVjNXk/J7BimljJOXEJf1otY6XUgb4hem39WEA/J/f/pJoRnYLU16OsCUlYhGOOichJXv6/YSxB1g2vTENGm/nOPUwiIwKh7Fh8xifAARTZBJ5ODoQPcxpIT7gFzW00L5fdbP/8Tij4m0WaZXBDP00RU72Pg1eKpR5zyJozndy9u2VMOWQgx2VKnW1f63oc7f7mFWd0d1/rbbI+rwpMJrquifhxq+Vn9x5lxjXHukdCVkV7lewn7y9NHmZCR5HXGJTOTO/ry1dSiM5t7aZNFGYdH4tRUTiRCqX+lboC1XSaoxL1minLY2oabeatst8Qyf58YE17DRWL154oYAlEph1SwGSoRtcchSQ=
         selected: false
-        status: Unchecked
+        status: Solved
+        student_answer: "app.get('/sum', (req, res) => {\n    const a = parseInt(req.query.a);\n\
+      \    const b = parseInt(req.query.b);\n    \n    if (isNaN(a) || isNaN(b)) {\n\
+      \        return res.status(400).json({\n            message: 'Invalid query\
+      \ parameters. Ensure \"a\" and \"b\" are numbers.'\n        });\n    }\n\n \
+      \   res.json({ sum: a + b });\n});\n\napp.get('/"
         is_visible: false
     learner_created: false
   - name: backend/package.json
@@ -102,6 +107,6 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+record: 5
 post_submission_on_open: true
